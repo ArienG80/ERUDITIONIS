@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    font-family: Courier, monospace;
+}
+
+.menuEstilo{
+    background-image: url(images/fundo.png); 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+h1{
+    color: darkgoldenrod;
+}  
+
+table{
+    margin: auto;
+    color: darkgoldenrod;
+    max-width: 100%;
+    border-spacing: 100px 60px;
+    table-layout: fixed;
+}
+
+.buttonSquare{
+    min-width: 250px;
+    min-height: 300px;
+    height: 5px;
+    border: 3px solid darkgoldenrod;
+    border-radius: 5px;
+    background-color: black;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.buttonSquare:hover{
+    background-color: darkgoldenrod;
+    color: #000;
+}
+
+.buttonNormal{
+    height: 30px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+    background-color: black;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.buttonNormal:hover{
+    background-color: darkgoldenrod;
+    color: #000;
+}
+
+.capasFilmes{
+    border: 3px solid darkgoldenrod;
+    border-radius: 5px;
+    border-spacing: 20px;
+    margin-left: 30px
+}
+.capasFilmes:hover{
+    border: 5px solid goldenrod;
+    border-radius: 5px;
+}
+
+
+dialog { 
+    display: block; 
+    text-align: center; 
+    background-color: black; 
+    color: darkgoldenrod;
+}
+
+dialog:not(:target):not([open]) { 
+    display: none; 
+}
+
+.cabecalhoPagina{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0 0 20px;
+}
